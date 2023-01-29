@@ -1,4 +1,4 @@
-﻿
+
 
 #include <iostream>
 
@@ -33,15 +33,13 @@ int main()
     std::cin >> answer;
     int num = 1;
 
-    
     Counter bes;
     
     if (answer == "да") {
         std::cout << " Введите начальное значение счётчика: ";
         std::cin >> num;
-        Counter сounter(num);
-
     }
+    bes = Counter(num);
     std::string g;
     while (g!="x")
     {
@@ -65,3 +63,4 @@ int main()
         }
     }
 }
+ 
